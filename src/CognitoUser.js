@@ -103,6 +103,10 @@ export default class CognitoUser {
     this.signInUserSession = signInUserSession;
     this.cacheTokens();
   }
+  
+  bang() {
+    return 'BANG!'
+  }
 
   /**
    * @returns {CognitoUserSession} the current session for this user
